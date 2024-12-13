@@ -1,0 +1,1 @@
+The solution is to remove the outdated vendor prefixes and use the standard CSS properties. For example, instead of `-webkit-transform: translateX(10px);`, use `transform: translateX(10px);`. Modern browsers will handle the standard property correctly, ensuring consistency across all supported browsers.
